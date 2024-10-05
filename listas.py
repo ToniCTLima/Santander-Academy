@@ -2,18 +2,18 @@
 
 # Para criar uma lista, simplesmente encerre os elementos entre colchetes:
 
-# frutas = ['maça', "banana", 'laranja' ] 
-# print(frutas[0])
-# print(frutas[1])
-# print(frutas[2])
+frutas = ['maça', "banana", 'laranja' ] 
+print(frutas[0])
+print(frutas[1])
+print(frutas[2])
 
 # Para acessar os elementos de uma lista, utilize o índice do elemento entre colchetes. Os índices começam a partir de 0.
 
 # Você também pode acessar os elementos a partir do final da lista utilizando índices negativos. O índice -1 representa o último elemento, -2 representa o penúltimo, e assim por diante.
-# frutas = ['maça', 'banana','laranja']
-# print(frutas[-1])
-# print(frutas[-2])
-# print(frutas[-3])
+frutas = ['maça', 'banana','laranja']
+print(frutas[-1])
+print(frutas[-2])
+print(frutas[-3])
 
 # Métodos de listas
 
@@ -26,25 +26,25 @@
 # sort(): ordena os elementos da lista em ordem ascendente.
 # reverse(): inverte a ordem dos elementos na lista.
 
-# frutas = ['maçã', 'banana', 'laranja']
-# frutas.append('pera') #append
-# print(frutas)
+frutas = ['maçã', 'banana', 'laranja']
+frutas.append('pera') #append
+print(frutas)
 
-# frutas.insert(1, 'uva') #insert
-# print(frutas)
+frutas.insert(1, 'uva') #insert
+print(frutas)
 
-# frutas.remove('banana')
-# print(frutas)
+frutas.remove('banana')
+print(frutas)
 
-# fruta_removida = frutas.pop(2)
-# print(frutas)
-# print(fruta_removida)
+fruta_removida = frutas.pop(2)
+print(frutas)
+print(fruta_removida)
 
-# frutas.sort
-# print(frutas)
+frutas.sort
+print(frutas)
 
-# frutas.reverse
-# print(frutas)
+frutas.reverse
+print(frutas)
 
 # Listas de compreensão
 # As listas de compreensão são uma forma concisa de criar novas listas baseadas em uma sequência existente. Permitem filtrar e transformar os elementos de uma lista em uma única linha de código.
